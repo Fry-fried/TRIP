@@ -1,0 +1,45 @@
+@media screen and (max-width: 1120px) {
+  .items__pre {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .about__desc {
+    flex-wrap: wrap;
+  }
+
+}
+
+@media screen and (max-width:800px) {
+    .blockkk{
+        align-items: center;
+    }
+    .contacts__desc{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contacts__text{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 700px) {
+  .header__nav {
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .banner {
+    height: 600px;
+  }
+}
+@media screen and (max-width: 540px) {
+  .banner__text {
+    font-size: 20px;
+  }
+
+  .banner {
+    height: 400px;
+  }
+}
